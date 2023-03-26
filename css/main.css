@@ -1,0 +1,86 @@
+/* Start Global Rules  */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-transition: 0.3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-image: url("../background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* End Global Rules */
+
+/* Start Page */
+
+.page .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px 0;
+}
+
+.page .header h1{
+    display: inline-block;
+    color: #EEE;
+    font-size: 32px;
+}
+
+.page .header .text h3{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #EEE;
+}
+
+.page .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 36vh;
+}
+
+.page .content h1{
+    font-size: 60px;
+    color: #EEE;
+    letter-spacing: 1px;
+}
+
+.page .content p{
+    color: #CCC;
+    font-size: 22px;
+    margin: 0 auto 40px;
+}
+
+.page .content a{
+    font-size: 16px;
+    color: #DDD;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 18px;
+    background-color: #888;
+    transition: var(--main-transition);
+
+}
+
+.page .content a:hover{
+    background-color: #777;
+}
+
+/* End Page */
